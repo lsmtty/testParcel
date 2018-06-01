@@ -1,0 +1,19 @@
+{
+  "name": "testParcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel watch ./src/html/index.html --out-dir build/output",
+    "build": "parcel build ./src/html/index.html --out-dir build/output",
+    "test": "cross-env NODE_ENV=production node parcel.index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "node-sass": "^4.9.0"
+  }
+}
