@@ -1,0 +1,10 @@
+@import url('./init.scss');
+#main{
+  background: url("../assets/img/img1.jpg") no-repeat center center;
+  background-size: contain;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 28px;
+}
